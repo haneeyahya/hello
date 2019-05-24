@@ -1,0 +1,40 @@
+div {
+    background-color: cornsilk
+   }
+   fieldset {
+    background-color :whitesmoke;
+    width: 30%
+   }
+   table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 40%;
+    }
+   
+    td, th ,tr {
+      border: 1px solid plum;
+      text-align: left;
+      padding: 9px;
+    }
+   
+    tr:nth-child(even) {
+      background-color: floralwhite;
+    }
+    .tab1{
+      float: left;
+    }
+    .tab{
+        float: left;
+      }
+      .tab1{
+          float: right;
+          width: 20%;
+        }
+      
+    legend{
+      color:seagreen;
+      text-align: left;
+   
+      font-size-adjust: bold;
+      size: 100px;
+    }
